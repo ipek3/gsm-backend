@@ -3,8 +3,7 @@
 ## Dosya  Yapısı
 
 # db.js
-Node.js backend’in Oracle DB ile bağlantı kurmasını sağlayan merkezi connection modülüdür.
-Node.js içinde Oracle DB ile konuşmayı sağlar
+Node.js backend’in Oracle DB ile bağlantı kurmasını sağlayan merkezi connection modülü.
 
 # server.js   
 -Backend service
