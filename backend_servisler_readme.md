@@ -1,5 +1,18 @@
 #  GSM Backend API Server (Express.js + Oracle)
 
+## Dosya  Yapısı
+
+# db.js
+Node.js backend’in Oracle DB ile bağlantı kurmasını sağlayan merkezi connection modülüdür.
+Node.js içinde Oracle DB ile konuşmayı sağlar
+
+# server.js   
+-Backend service
+Bu dosya, GSM projesinin backend (sunucu tarafı) katmanıdır.  
+Node.js Express tabanlı REST API server Oracle veritabanı ile iletişim kurar.
+
+Frontend (React) tarafı bu backend’e HTTP istekleri gönderir, backend ise bu istekleri işleyip Oracle DB üzerinde gerekli işlemleri yapar.
+
 ## Backend Genel Yapısı
 
 Bu dosya, GSM servis yönetim sisteminin backend katmanını oluşturmaktadır.  
